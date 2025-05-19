@@ -1,25 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "meteor-5b5t-addon",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "5b5t addon",
+  "description": "5b5t utilities for Meteor Client.",
   "authors": [
-    "seasnail"
+    "StorageESP"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/mmvanheusden/meteor-5b5t-addon"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.lttstore.duper.DuperAddon"
     ]
   },
-  "mixins": [
-    "addon-template.mixins.json"
-  ],
   "custom": {
     "meteor-client:color": "225,25,25"
   },
